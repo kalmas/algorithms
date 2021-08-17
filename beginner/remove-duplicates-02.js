@@ -1,6 +1,6 @@
 /**
- * @param {number[]} nums
- * @return {number}
+ * @param {number[]} nums sorted list of integers to remove duplicates from
+ * @return {number} count of unique values in list
  */
 const removeDuplicates = function(nums) {
   if (nums.length === 0) {
